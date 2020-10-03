@@ -42,9 +42,9 @@ function longPlaneteerCalls(words) {
 function findTheCheese (foods) {
   // for loop interates through entire "foods" array
   for (var i = 0; i < foods.length; i++) {
-    /* logical operator checks if any of the individual
-    foods is one of the listed cheeses. If yes, then the 
-    name of that cheese is returned */
+    /* logical operator is used to check if any of the 
+    individual foods is one of the listed cheeses. 
+    If yes, then the name of that cheese is returned */
     if (foods[i] === "cheddar" ||
         foods[i] === "gouda" ||
         foods[i] === "camembert") {
